@@ -66,10 +66,16 @@ hi MoreMsg         guifg=#E6DB74
 hi Operator        guifg=#F92672
 
 " complete menu
-hi Pmenu           guifg=#66D9EF guibg=#000000
+" hi Pmenu           guifg=#66D9EF guibg=#000000
+" hi PmenuSel                      guibg=#808080
+" hi PmenuSbar                     guibg=#080808
+" hi PmenuThumb      guifg=#66D9EF
+
+hi Pmenu           guifg=#D3E4E8 guibg=#000000
 hi PmenuSel                      guibg=#808080
 hi PmenuSbar                     guibg=#080808
-hi PmenuThumb      guifg=#66D9EF
+hi PmenuThumb      guifg=#D3E4E8
+
 
 hi PreCondit       guifg=#A6E22E               gui=bold
 hi PreProc         guifg=#A6E22E
@@ -183,10 +189,16 @@ if &t_Co > 255
    hi Operator        ctermfg=161
 
    " complete menu
-   hi Pmenu           ctermfg=81  ctermbg=16
-   hi PmenuSel        ctermfg=81  ctermbg=244
+   " hi Pmenu           ctermfg=81  ctermbg=16
+   " hi PmenuSel        ctermfg=81  ctermbg=244
+   " hi PmenuSbar                   ctermbg=232
+   " hi PmenuThumb      ctermfg=81
+
+   hi Pmenu           ctermfg=80  ctermbg=243
+   hi PmenuSel        ctermfg=123  ctermbg=244
    hi PmenuSbar                   ctermbg=232
-   hi PmenuThumb      ctermfg=81
+   hi PmenuThumb      ctermfg=80
+
 
    hi PreCondit       ctermfg=118               cterm=bold
    hi PreProc         ctermfg=118
@@ -222,7 +234,8 @@ if &t_Co > 255
    hi VisualNOS                   ctermbg=238
    hi Visual                      ctermbg=235
    hi WarningMsg      ctermfg=231 ctermbg=238   cterm=bold
-   hi WildMenu        ctermfg=81  ctermbg=16
+   " hi WildMenu        ctermfg=81  ctermbg=16
+   hi WildMenu        ctermfg=80  ctermbg=243
 
    hi Comment         ctermfg=59
    hi CursorColumn                ctermbg=236
